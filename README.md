@@ -15,3 +15,19 @@ Start by running `npm install` inside the project folder
 `npm run eslint` to run eslint
 `npm run build` to make a production build
 `npm run start-prod` to run your production build
+
+
+Add to linux
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
+in powershell 
+
+$env:NODE_OPTIONS = "--openssl-legacy-provider"
+
+Manualmente creando un workflow 
+Crea un folder .github
+Inside un folder workflows
+
+Create a  yml file to have the workflow
+
